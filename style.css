@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Yusei+Magic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(190, 202, 212);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
+   
+}
+
+.container
+{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px rgba(3, 101, 212, 0.747);;
+    padding: 10px 25px;
+    
+}
+label,input{
+    cursor: pointer;
+}
+.container ol{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn_container button{
+    background-color: rgba(79, 131, 173, 0.993);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: background 0.5s;
+    border-radius: 5px;
+}
+.btn_container button:focus{
+    outline: none;
+}
+.btn_container button:hover{
+    background-color:  rgba(22, 65, 100, 0.993);
+   
+}
+.btn_container #btn_p{
+     visibility: hidden; 
+    float: left;
+}   
+.btn_container #btn_n{
+    float: right;
+}
+.btn_container{
+    height: 20px;
+}
+
+.submit_question{
+    position:relative;
+    justify-content: center;
+    width: 100%;
+}
+#sub_ques{
+    width: 100%;
+    background-color: rgb(158, 17, 158);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+#sub_ques:focus{
+    outline: none;
+}
+
+#sub_ques:hover{
+    background-color: rgb(109, 10, 109) ;
+}
+
+#sub_quiz{
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(8, 124, 133);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+#sub_quiz:hover{
+    background-color: rgb(18, 68, 71);
+}
+#sub_quiz:focus{
+    outline: none;
+}
+
+#newEl_class{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 40px;
+}
